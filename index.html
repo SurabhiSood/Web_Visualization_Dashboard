@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <title>Web Visualization Dashboard</title>
+    
+    <!-- Bring in our bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!--customised style sheet-->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+    
+<body>
+    <!--creating a layout for the landing page-->
+    <div class="container">
+        <div class="row">
+          <div class="col-sm">
+              <!--adding a navbar(brand)-->
+            <nav class="navbar navbar-light bg-light">
+                <button type="button" class="btn btn-info">Latitude</button>
+                <!--adding navbar content-->
+                <ul class="nav justify-content-end">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Separated link</a>
+                        </div>
+                      </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Comparision</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Data</a>
+                    </li>
+                  </ul>
+              </div>    
+            </nav>
+        </div>
+                
+        <div class="p-3 mb-2 bg-light text-dark">
+        <div class="row">
+           <div class="col-sm-7">
+                <div class="p-3 mb-2 bg-white text-dark">
+                    <h3>Summary:Lattitude vs. X</h3>
+                    <hr>
+                    <div class="media">
+                        <img src="Resources/assets/images/Fig1.png" class="align-self-start mr-3" height="300" width="300">
+                        <div class="media-body">
+                          <!--adding content to the web page-->
+                          <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis,we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.</p>
+                          <p>After assembling the dataset, we used matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature,cloudiness,wind speed, and humidity. This site provides the source data and visualizations created as a part of the analysis, as well as explanations and description of any trends and correlations witnessed.</p>
+                        </div>
+                      </div>  
+                </div>
+            </div>            
+            <div class="col-sm-5">
+                <div class="p-3 mb-2 bg-white text-dark">
+                <!--creating the layout-->
+                    <h4>Visualization</h4>
+                    <hr>
+                    <div class="row">
+                        <div class="col-sm">
+                            <img src="Resources/assets/images/Fig1.png" height="175" width="175">
+                        </div>
+                        <div class="col-sm">
+                            <img src="Resources/assets/images/Fig2.png" height="175" width="175">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm">
+                            <img src="Resources/assets/images/Fig3.png" height="175" width="175">
+                        </div>
+                        <div class="col-sm">
+                            <img src="Resources/assets/images/Fig4.png" height="175" width="175">
+                        </div>
+                    </div>
+                </div>
+            </div>                    
+</body>
+</html>
