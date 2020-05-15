@@ -2,7 +2,6 @@
 <html lang="en-us">
 
 <head>
-    
     <meta charset="UTF-8">
     <title>Web Visualization Dashboard</title>
     
@@ -13,34 +12,33 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
-    
 <body>
     <!--creating a layout for the landing page-->
     <div class="container">
         <div class="row">
           <div class="col-sm">
-              <!--adding a navbar(brand)-->
+              <!--adding a nav(brand)-->
             <nav class="navbar navbar-light bg-light">
                 <button type="button" class="btn btn-info">Latitude</button>
-                <!--adding navbar content-->
-                <ul class="nav justify-content-end">
+                <!--adding nav content-->
+                <!--Dropdown-->
+                <ul class="nav nav-pills">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
-                        <div class="dropdown-menu">
-                          <a class="dropdown-item" href="#">Action</a>
-                          <a class="dropdown-item" href="#">Another action</a>
-                          <a class="dropdown-item" href="#">Something else here</a>
-                          <div class="dropdown-divider"></div>
-                          <a class="dropdown-item" href="#">Separated link</a>
-                        </div>
-                      </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Comparision</a>
+                      <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Plots</a>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="MaxTemperature.html">Max Temperature</a>
+                        <a class="dropdown-item" href="Humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="WindSpeed.html">Wind Speed</a>
+                      </div>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Data</a>
+                      <a class="nav-link" href="Comparision.html">Comparision</a>
                     </li>
-                  </ul>
+                    <li class="nav-item">
+                      <a class="nav-link" href="Data.html">Data</a>
+                    </li>
+                  </ul>                  
               </div>    
             </nav>
         </div>
@@ -52,7 +50,7 @@
                     <h3>Summary:Lattitude vs. X</h3>
                     <hr>
                     <div class="media">
-                        <img src="Resources/assets/images/Fig1.png" class="align-self-start mr-3" height="300" width="300">
+                        <img src="../Resources/assets/images/Fig1.png" class="align-self-start mr-3" height="300" width="300">
                         <div class="media-body">
                           <!--adding content to the web page-->
                           <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis,we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.</p>
@@ -68,18 +66,18 @@
                     <hr>
                     <div class="row">
                         <div class="col-sm">
-                            <img src="Resources/assets/images/Fig1.png" height="175" width="175">
+                            <img src="../Resources/assets/images/Fig1.png" height="175" width="175">
                         </div>
                         <div class="col-sm">
-                            <img src="Resources/assets/images/Fig2.png" height="175" width="175">
+                            <img src="../Resources/assets/images/Fig2.png" height="175" width="175">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-sm">
-                            <img src="Resources/assets/images/Fig3.png" height="175" width="175">
+                            <img src="../Resources/assets/images/Fig3.png" height="175" width="175">
                         </div>
                         <div class="col-sm">
-                            <img src="Resources/assets/images/Fig4.png" height="175" width="175">
+                            <img src="../Resources/assets/images/Fig4.png" height="175" width="175">
                         </div>
                     </div>
                 </div>

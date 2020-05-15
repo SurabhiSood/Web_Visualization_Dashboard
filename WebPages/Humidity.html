@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Web Visualization Dashboard</title>
+    
+    <!-- Bring in our bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!--customised style sheet-->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!--creating a layout for the landing page-->
+    <div class="container">
+        <div class="row">
+          <div class="col-sm">
+              <!--adding a nav(brand)-->
+            <nav class="navbar navbar-light bg-light">
+                <button type="button" class="btn btn-info">Latitude</button>
+                <!--adding nav content-->
+                <!--Dropdown-->
+                <ul class="nav nav-pills">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Plots</a>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="MaxTemperature.html">Max Temperature</a>
+                        <a class="dropdown-item" href="Humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="WindSpeed.html">Wind Speed</a>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="Comparision.html">Comparision</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="Data.html">Data</a>
+                    </li>
+                  </ul>                  
+              </div>    
+            </nav>
+        </div>
+
+        <div class="p-3 mb-2 bg-light text-dark">
+            <div class="row">
+               <div class="col-sm-7">
+                    <div class="p-3 mb-2 bg-white text-dark">
+                        <h3>Humidity</h3>
+                        <hr>
+                        <img src="../Resources/assets/images/Fig2.png" class="align-self-start mr-3" height="400" width="600">
+                        <!--adding content to the web page-->
+                            <p>No relation</p>
+                    </div>
+                </div>  
+                <!--COL2/VISUALIZATION-->      
+                <div class="col-sm-5">
+                    <div class="p-3 mb-2 bg-white text-dark">
+                    <!--creating the layout-->
+                        <h4>Visualization</h4>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm">
+                                <img src="../Resources/assets/images/Fig1.png" height="175" width="175">
+                            </div>
+                            <div class="col-sm">
+                                <img src="../Resources/assets/images/Fig2.png" height="175" width="175">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm">
+                                <img src="../Resources/assets/images/Fig3.png" height="175" width="175">
+                            </div>
+                            <div class="col-sm">
+                                <img src="../Resources/assets/images/Fig4.png" height="175" width="175">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
