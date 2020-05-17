@@ -2,7 +2,6 @@
     font-family: sans-serif;
     font-weight: bold;
     color:teal;
-    font-size: xx-large;
 }
 
 #title{
@@ -26,14 +25,6 @@
       color: rgb(31, 29, 29);
   }
 
-#just{
-    text-align: justify;
-    font-family: sans-serif;
-    font-weight: bold;
-    color:teal;
-    font-size: xx-large;
-}
-
 .box {
     min-height: 50px;
     padding: 5px;
@@ -44,5 +35,26 @@
   
   .skyblue {
     background: teal;
+  }
+
+  /* Media Queries */
+@media(max-width: 992px){
+  .navbar-expand-lg{
+  background-color: #0BADA6;
+  }
+  
+  .navbar-brand{
+      padding: 10px;
+  }
+  
+  button{
+      margin-right: 30px; 
+  }
+  button:focus {
+  
+      outline: 1px dotted;
+      outline: 5px auto -webkit-focusring-color;
+      
+      }
   }
   
