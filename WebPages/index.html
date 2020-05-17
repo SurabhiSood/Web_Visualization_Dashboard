@@ -18,35 +18,35 @@
         <div class="row">
           <div class="col-sm">
             <!--adding a nav(brand)-->
-            <nav class="navbar navbar-light bg-light">
-                <a class="btn btn-primary" href="index.html" role="button">Latitude</a>
-                <!--adding nav content-->
-                <!--Dropdown-->
-                <ul class="nav nav-pills">
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Plots</a>
-                      <div class="dropdown-menu">
-                        <a class="dropdown-item" href="MaxTemperature.html">Max Temperature</a>
-                        <a class="dropdown-item" href="Humidity.html">Humidity</a>
-                        <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
-                        <a class="dropdown-item" href="WindSpeed.html">Wind Speed</a>
-                      </div>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="Comparision.html">Comparision</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="Data.html">Data</a>
-                    </li>
-                  </ul>                  
-              </div>    
-            </nav>
+                <nav class="navbar navbar-light bg-light">
+                    <a class="btn btn-primary" href="index.html" role="button">Latitude</a>
+                    <!--adding nav content-->
+                    <!--Dropdown-->
+                    <ul class="nav nav-pills">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#" id="colornav">Plots</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="MaxTemperature.html">Max Temperature</a>
+                                <a class="dropdown-item" href="Humidity.html">Humidity</a>
+                                <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+                                <a class="dropdown-item" href="WindSpeed.html">Wind Speed</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Comparision.html" id="colornav">Comparision</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Data.html" id="colornav">Data</a>
+                        </li>
+                    </ul>
+                </nav>                
+         </div>    
         </div>        
         <div class="p-3 mb-2 bg-light text-dark">
         <div class="row">
            <div class="col-sm">
                 <div class="p-3 mb-2 bg-white text-dark">
-                    <h3 class="aquagreen">Summary:Lattitude vs. X</h3>
+                    <h3 id="headings">Summary:Lattitude vs. X</h3>
                     <hr>
                     <div class="media">
                         <img src="../Resources/assets/images/Fig1.png" class="align-self-start mr-3" height="300" width="300">
@@ -61,7 +61,7 @@
             <div class="col-sm">
                 <div class="p-3 mb-2 bg-white text-dark">
                 <!--creating the layout-->
-                    <h4>Visualization</h4>
+                    <h4 id="headings">Visualization</h4>
                     <hr>
                     <div class="row">
                         <div class="col-sm">
@@ -89,7 +89,6 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-                          
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>                         
 </body>
 </html>

@@ -16,63 +16,71 @@
     <!--creating a layout for the landing page-->
     <div class="container">
         <div class="row">
-          <div class="col-sm">
-              <!--adding a nav(brand)-->
-            <nav class="navbar navbar-light bg-light">
-                <a class="btn btn-primary" href="index.html" role="button">Latitude</a>
-                <!--adding nav content-->
-                <!--Dropdown-->
-                <ul class="nav nav-pills">
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Plots</a>
-                      <div class="dropdown-menu">
-                        <a class="dropdown-item" href="MaxTemperature.html">Max Temperature</a>
-                        <a class="dropdown-item" href="Humidity.html">Humidity</a>
-                        <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
-                        <a class="dropdown-item" href="WindSpeed.html">Wind Speed</a>
-                      </div>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="Comparision.html">Comparision</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="Data.html">Data</a>
-                    </li>
-                  </ul>                  
-              </div>    
-            </nav>
+            <div class="col-sm">
+            <!--adding a nav(brand)-->
+                <nav class="navbar navbar-light bg-light">
+                    <a class="btn btn-primary" href="index.html" role="button">Latitude</a>
+                    <!--adding nav content-->
+                    <!--Dropdown-->
+                    <ul class="nav nav-pills">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#" id="colornav">Plots</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="MaxTemperature.html">Max Temperature</a>
+                                <a class="dropdown-item" href="Humidity.html">Humidity</a>
+                                <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+                                <a class="dropdown-item" href="WindSpeed.html">Wind Speed</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Comparision.html" id="colornav">Comparision</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Data.html" id="colornav">Data</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
         <div class="p-3 mb-2 bg-light text-dark">
             <div class="row">
                <div class="col-sm-7">
                     <div class="p-3 mb-2 bg-white text-dark">
-                        <h3>Wind Speed</h3>
+                        <h3 id="headings">Wind Speed</h3>
                         <hr>
                         <img src="../Resources/assets/images/Fig4.png" class="align-self-start mr-3" height="400" width="600">
                         <!--adding content to the web page-->
-                            <p>No relation</p>
+                            <p>While we see a strong relationship between temperature and latitude.There is no strong relationship between latitude and wind speed. However, the cities with wind speeds over 15 mph increase when you move either direction away from the equator.</p>
                     </div>
                 </div>  
                 <!--COL2/VISUALIZATION-->      
                 <div class="col-sm-5">
                     <div class="p-3 mb-2 bg-white text-dark">
                     <!--creating the layout-->
-                        <h4>Visualization</h4>
+                        <h4 id="headings">Visualization</h4>
                         <hr>
                         <div class="row">
                             <div class="col-sm">
+                                <a href="MaxTemperature.html">
                                 <img src="../Resources/assets/images/Fig1.png" height="175" width="175">
+                                </a>
                             </div>
                             <div class="col-sm">
+                                <a href="Humidity.html">
                                 <img src="../Resources/assets/images/Fig2.png" height="175" width="175">
+                                </a>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-sm">
+                                <a href="Cloudiness.html">
                                 <img src="../Resources/assets/images/Fig3.png" height="175" width="175">
+                                </a>
                             </div>
                             <div class="col-sm">
+                                <a href="WindSpeed.html">
                                 <img src="../Resources/assets/images/Fig4.png" height="175" width="175">
+                                </a>
                             </div>
                         </div>
                     </div>
