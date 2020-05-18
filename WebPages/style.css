@@ -1,7 +1,13 @@
 #headings{
-    font-family: sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     color:teal;
+}
+
+.btn-primary{
+    background-color:teal;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #title{
@@ -10,7 +16,10 @@
     color:teal;
     font-size: x-large;
     text-align: center;
+}
 
+#colornav{
+  color:teal;
 }
 
 .center{
@@ -21,40 +30,25 @@
     height: 80%;
   }
 
-#colornav{
-      color: rgb(31, 29, 29);
-  }
-
 .box {
-    min-height: 50px;
+    min-height: 15px;
+    max-width: 20;
     padding: 5px;
     margin: 5px;
-    font-weight: 800;
-    color: #fff;
-  }
-  
-  .skyblue {
-    background: teal;
-  }
+    font-family: 'Times New Roman', Times, serif;
+    background-color: teal;
+    color: white;
+    text-align: center;
+}
 
-  /* Media Queries */
-@media(max-width: 992px){
-  .navbar-expand-lg{
-  background-color: #0BADA6;
-  }
-  
-  .navbar-brand{
-      padding: 10px;
-  }
-  
-  button{
-      margin-right: 30px; 
-  }
-  button:focus {
-  
-      outline: 1px dotted;
-      outline: 5px auto -webkit-focusring-color;
-      
-      }
-  }
-  
+@media screen and (min-width: 910px)
+.nav-primary 
+{
+  float: right;
+  clear: none;
+}
+
+@media screen and (min-width: 640px)
+.nav-primary, .nav-primary ul {
+    float: left;
+}
