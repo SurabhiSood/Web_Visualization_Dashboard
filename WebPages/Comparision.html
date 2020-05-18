@@ -10,29 +10,37 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class='container'>
+        <div class='container-fluid'>
             <div class="row">
-                <div class="col-sm">
-                    <nav class="navbar navbar-light bg-light">
-                        <a class="btn btn-primary btn-lg" href="index.html" role="button">Latitude</a>
-                        <ul class="nav nav-pills">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#" id="colornav">Plots</a>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="MaxTemperature.html">Max Temperature</a>
-                                        <a class="dropdown-item" href="Humidity.html">Humidity</a>
-                                        <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
-                                        <a class="dropdown-item" href="WindSpeed.html">Wind Speed</a>
-                                    </div>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="Comparision.html" id="colornav">Comparision</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="Data.html" id="colornav">Data</a>
-                            </li>
-                        </ul>
-                    </nav>                    
+                <div class="col-md">
+                <!--adding a NavBrand)-->
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="btn btn-primary btn-lg" href="index.html" role="button">Latitude</a>
+                    <!--adding nav content-->
+                    <!--Dropdown-->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#" id="colornav">Plots</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="MaxTemperature.html">Max Temperature</a>
+                                <a class="dropdown-item" href="Humidity.html">Humidity</a>
+                                <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+                                <a class="dropdown-item" href="WindSpeed.html">Wind Speed</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Comparision.html" id="colornav">Comparision</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Data.html" id="colornav">Data</a>
+                        </li>
+                    </ul>
+                    </div>
+                </nav>  
                 </div>
             </div>
             <!--column 1/Description-->
