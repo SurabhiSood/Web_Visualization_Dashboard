@@ -1,6 +1,6 @@
 ### Goal -
 
-To create a dashboard using HTML/CSS and Bootstrap to visualy represent the climate analysis we've done using pandas and matplotlib. The dashboard can be seen ![here](https://surabhisood.github.io/index.html)
+To create a dashboard using HTML/CSS and Bootstrap to visualy represent the climate analysis we've done using pandas and matplotlib. The dashboard can be seen [here](https://surabhisood.github.io/index.html)
 
 ## Process
 
