@@ -1,16 +1,12 @@
-# Web Visualization Dashboard (Latitude)
+### Goal -
 
-## Background
+To create a dashboard using HTML/CSS and Bootstrap to visualy represent the climate analysis we've done using pandas and matplotlib. The dashboard can be seen ![here](https://surabhisood.github.io/index.html)
 
-Create a dashboard using HTML and CSS to the analysis we've done.
+## Process
 
-## Latitude - Latitude Analysis Dashboard
+The first step was to assemble the analysis and the plots I have created using pandas and matplotlib. The analysis was done for at least 500 randomly selected cities around the world to prove that the weather gets hotter as one approaches the equator using the Open Weather Map API.
 
-For this homework we'll be creating a visualization dashboard website using visualizations we've created in a past assignment. Specifically, we'll be plotting [weather data](Resources/cities.csv).
-
-In building this dashboard, we'll create individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
-
-### Website 
+In building this dashboard, I created individual pages for each plot and a means by which we can navigate between them. These pages contain the visualizations and their corresponding explanations. I will also create a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
 
 The website consist of 7 pages total, including:
 
@@ -29,7 +25,7 @@ The website consist of 7 pages total, including:
 * A 'Data page' that:
   * Displays a responsive table containing the data used in the visualizations.
     
-The website must, at the top of every page, have a navigation menu that:
+The website, at the top of every page, has a navigation menu that:
 
 * Has the name of the site on the left of the nav which allows users to return to the landing page from any page.
 * Contains a dropdown on the right of the navbar named "Plots" which provides links to each individual visualization page.
